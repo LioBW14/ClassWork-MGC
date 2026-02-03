@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
 
-    public static void main(String[] args) {        
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Area & Perimeter Calculator");
@@ -71,7 +71,7 @@ public class App {
         double b = readPositiveDouble(sc, "Enter side B: ");
         double c = readPositiveDouble(sc, "Enter side C: ");
 
-        
+
         if (a + b <= c || a + c <= b || b + c <= a) {
             System.out.println("Invalid triangle. The sides do not satisfy the triangle inequality.");
             return;
@@ -96,7 +96,7 @@ public class App {
         printResult(area, perimeter);
     }
 
-    
+
     private static int readInt(Scanner sc, String prompt) {
         while (true) {
             System.out.print(prompt);
