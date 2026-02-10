@@ -69,7 +69,7 @@ public class clock {
         }
 
         // Defines the minute value (used to control the minute hand position)
-        int minute = 120;
+        int minute = 40;
 
         // Length of the minute hand
         int minuteLength = 80;
