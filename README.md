@@ -8,13 +8,13 @@ Features
 
   The system supports the following operations:
   
-    Crop: Crops the image using two coordinates (x1, y1) and (x2, y2), forming a rectangle or square between those points.
+  Crop: Crops the image using two coordinates (x1, y1) and (x2, y2), forming a rectangle or square between those points.
     
-    Invert: Inverts the colors of the entire image.
+  Invert: Inverts the colors of the entire image.
     
-    Rotate: Rotates a selected region by 90°, 180°, or 270°.
+  Rotate: Rotates a selected region by 90°, 180°, or 270°.
     
-    Auto Save: When selecting the exit option, the program automatically saves the modified image as editedimage.png.
+  Auto Save: When selecting the exit option, the program automatically saves the modified image as editedimage.png.
   
   Input validation ensures that the coordinates provided by the user do not exceed the image boundaries.
 
