@@ -43,12 +43,14 @@ public class Main {
                     break;
 
                 case 2:
-                    //Invert applies to the entire image
-                    editor.invert();
+                    //Invert affects the selected region
+                    System.out.print("Enter x1 y1 x2 y2: ");
+                    editor.invertRegion(scanner.nextInt(), scanner.nextInt(),
+                                        scanner.nextInt(), scanner.nextInt());
                     break;
 
                 case 3:
-                    //Rotate only affects the selected region
+                    //Rotate affects the selected region
                     System.out.print("Enter x1 y1 x2 y2: ");
                     int x1 = scanner.nextInt();
                     int y1 = scanner.nextInt();

@@ -10,7 +10,7 @@ Features
   
   Crop: Crops the image using two coordinates (x1, y1) and (x2, y2), forming a rectangle or square between those points.
     
-  Invert: Inverts the colors of the entire image.
+  Invert: Inverts the colors of a selected region defined by two coordinates (x1, y1) and (x2, y2).
     
   Rotate: Rotates a selected region by 90°, 180°, or 270°.
     
