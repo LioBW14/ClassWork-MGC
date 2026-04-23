@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
         // System variables required for external service authentication.
         // Must be populated before execution.
-        String geminiApiKey = "Gemini API Key goes here"; 
-        String geoapifyMapKey = "Geoapify Map Key goes here"; 
+        String geminiApiKey = "GEMINI_API_KEY_HERE"; 
+        String geoapifyMapKey = "GEOAPIFY_MAP_KEY_HERE"; 
 
         // Dependency Injection Setup: Instantiates the specific tools that will be used.
         ProjectPipeline pipeline = new ProjectPipeline(
